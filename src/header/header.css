@@ -1,0 +1,44 @@
+.navigations{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+   
+}
+
+.navigationText{
+    font-size: 24px;
+    font-weight:500;
+    font-family: serif;
+    text-decoration: none;
+    color: black;
+}
+
+.navigationText :hover{
+    color: white;
+    text-decoration: underline;
+}
+
+
+.header{
+    display: flex;
+    padding-top: 40px;
+    margin-top: 20px;
+    justify-content: space-between;
+    padding: 0px 40px;
+    align-items: center;
+
+}
+
+.companyName{
+    font-size: 48px;
+    font-weight: bold;
+    font-family: serif;
+    margin-bottom: 0;
+}
+
+.Logo{
+    display: flex;
+    column-gap: 50px;
+    justify-content: center;
+    align-items: center;
+}

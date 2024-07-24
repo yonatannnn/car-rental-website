@@ -1,0 +1,42 @@
+.slogan-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+    padding: 20px; 
+    height: 100vh;
+    text-align: center;
+}
+
+.slogan {
+    color: white;
+    line-height: 1.2;
+    letter-spacing: 3px;
+    font-size: 3.8rem;
+    font-family: 'Helvetica Neue', sans-serif; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    margin: 0; 
+    padding: 0 20px;
+}
+
+.rent-button {
+    width: fit-content;
+    padding: 15px 40px; 
+    border-radius: 50px;
+    background-color: transparent;
+    color: white;
+    font-size: 1.5rem;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: all 0.3s ease; 
+    text-transform: uppercase; 
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); 
+}
+
+.rent-button:hover {
+    background-color: white;
+    color: #4ca1af;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.4); 
+    transform: scale(1.05); 
+}

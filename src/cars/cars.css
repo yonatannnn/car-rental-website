@@ -1,0 +1,55 @@
+.cars {
+    background-color: lightgrey;
+    width: 100vw;
+    padding: 120px 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.offer-text {
+    position: relative;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.offer-text::before,
+.offer-text::after {
+    content: '';
+    display: block;
+    height: 3px;
+    background-color: red;
+    width: 100%;
+    position: absolute;
+}
+
+.offer-text::before {
+    top: -10px;
+}
+
+.offer-text::after {
+    bottom: -10px;
+}
+
+.car-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.view-more-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.view-more-button:hover {
+    background-color: darkred;
+}

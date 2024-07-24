@@ -1,42 +1,47 @@
-.navigations{
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    padding-top: 20px;
+    margin-top: 0;
+    justify-content: space-between;
+    padding: 10px 40px;
+    align-items: center;
+    background-color: rgb(0, 0, 0 , 0.9);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.9); /* Optional: Add shadow for better visibility */
+    z-index: 1000; /* Ensure it stays above other content */
+}
+
+.navigations {
     display: flex;
     width: 50%;
     justify-content: space-around;
-   
 }
 
-.navigationText{
+.navigationText {
     font-size: 24px;
-    font-weight:500;
+    font-weight: 500;
     font-family: serif;
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255)
 }
 
-.navigationText :hover{
+.navigationText:hover {
     color: white;
     text-decoration: underline;
 }
 
-
-.header{
-    display: flex;
-    padding-top: 40px;
-    margin-top: 20px;
-    justify-content: space-between;
-    padding: 0px 40px;
-    align-items: center;
-
-}
-
-.companyName{
+.companyName {
     font-size: 48px;
     font-weight: bold;
     font-family: serif;
     margin-bottom: 0;
+    color: white;
 }
 
-.Logo{
+.Logo {
     display: flex;
     column-gap: 50px;
     justify-content: center;

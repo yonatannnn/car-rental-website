@@ -1,0 +1,19 @@
+.car-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+}
+
+.car-image {
+    width: 100%;
+    height: auto;
+}
+
+.car-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}

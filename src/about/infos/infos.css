@@ -1,0 +1,14 @@
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+    width: 400px;
+    margin: 10px;
+}
+
+.card p {
+    margin: 0;
+    font-size: 18px;
+}
